@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
-body{
-    font-family: 'Poppins', sans-serif;
-    
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -79,9 +78,12 @@ html {
 
 /* a propos */
 
+.actions .icon-box:hover,
 .services .icon-box:hover {
   border-color: #7ed957;
 }
+
+.actions .icon-box,
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -93,6 +95,7 @@ html {
   border: 1px solid #fff;
 }
 
+.actions .icon,
 .services .icon {
   margin: 0 auto 20px auto;
   padding-top: 17px;
@@ -104,15 +107,18 @@ html {
   background: #ffe88d;
 }
 
+.actions .icon i,
 .services .icon i {
   font-size: 36px;
   line-height: 1;
   color: #7ed957;
 }
 
+.actions .icon-box:hover .title a,
 .services .icon-box:hover .title a {
   color: #7ed957;
 }
+.actions .title a,
 .services .title a {
   color: #111;
   transition: 0.3s;
@@ -123,16 +129,19 @@ a:hover {
   text-decoration: none;
 }
 
+.actions li,
 .services li {
   list-style: none;
   margin-left: 0px;
 }
 
+.actions ul,
 .services ul {
   padding: 0;
 }
 
 /* Contact form  */
+.actions,
 .services,
 .contact {
   padding-bottom: 60px;
@@ -569,6 +578,7 @@ a:hover {
   transition: all 0.3s ease;
 }
 
+.actions,
 .contact,
 .teams {
   color: #fff;
